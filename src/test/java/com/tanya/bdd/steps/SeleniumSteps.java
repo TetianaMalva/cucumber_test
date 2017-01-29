@@ -33,6 +33,10 @@ public class SeleniumSteps {
         Assert.assertEquals(driver.getTitle(), title);
     }
 
+    //@And("I see input field") //TODO implement
+    //@And("I send keys: some_text") //TODO implement
+    //@And("I click submit") //TODO implement
+
     @After
     public void closeBrowser(){
         driver.quit();
