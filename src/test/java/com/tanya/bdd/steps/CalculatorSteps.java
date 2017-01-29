@@ -46,10 +46,9 @@ public class CalculatorSteps {
     }
 
     @When("^I multiply (\\d+) and (\\d+)$")
-    public void iggjkgjgjkhgkjgkj_and(int arg1, int arg2) throws Throwable {
+    public void i_subtract2_and(int arg1, int arg2) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         calculator.multiply(arg1, arg2);
     }
-
 
 }
