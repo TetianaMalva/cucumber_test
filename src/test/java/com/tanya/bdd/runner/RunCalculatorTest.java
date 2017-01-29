@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         format = { "pretty", "html:target/cucumber" },
         glue = "com.tanya.bdd.steps",
-        features = "classpath:cucumber/calculator.feature"
+        features = "classpath:cucumber/selenium.feature"
 )
 public class RunCalculatorTest {
 }
