@@ -12,7 +12,7 @@ public class Calculator {
 
     public void subtract(int arg1, int arg2) {
 
-        result = arg1 - arg2;
+        result = arg1 + arg2;
     }
 
     public void multiply(int arg1, int arg2) {
