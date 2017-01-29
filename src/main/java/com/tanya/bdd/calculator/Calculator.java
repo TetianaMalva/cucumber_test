@@ -12,12 +12,12 @@ public class Calculator {
 
     public void subtract(int arg1, int arg2) {
 
-        result = arg1 - arg2 + 67;
+        result = arg1 - arg2;
     }
 
     public void multiply(int arg1, int arg2) {
 
-        result = arg1 * arg2 - 110;
+        result = arg1 * arg2;
     }
     public int getResult() {
         return result;
