@@ -50,6 +50,4 @@ public class CalculatorSteps {
         // Write code here that turns the phrase above into concrete actions
         calculator.multiply(arg1, arg2);
     }
-
-
 }
