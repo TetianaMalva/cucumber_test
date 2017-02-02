@@ -1,8 +1,5 @@
 package com.tanya.bdd.classes;
 
-/**
- * Created by tanya on 2/2/17.
- */
 public class App2 {
     public static void main(String[] args) {
         String a = "jak";

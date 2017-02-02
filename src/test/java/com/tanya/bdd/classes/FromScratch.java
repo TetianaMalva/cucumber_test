@@ -5,41 +5,6 @@ import org.apache.commons.lang3.ObjectUtils;
 
 public class FromScratch {
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
-//        int num = 7;
-//        double d = 4.5;
-//        d = 3.5;
-//        float f = 4.5f;
-//        char c = 'e';
-//        String s1 = new String("Some text");
-//        String s2 = "Add message here";
-//        String s3 = s1 + s2;
-//        String s = "I have " + num + " cookies";
-//        System.out.println(s);
-//        int a = 4;
-//        boolean b = a == 4;
-//        if (b) {
-//            System.out.println("It is true");
-//        }
-//        int c = 16;
-//        if (c == 19)
-//        {
-//            System.out.println("It is 16");
-//        }
-//        int a;
-//        int b = 7;
-//        int i = 0;
-//        a = i + 1;
-//        if (a == b) {
-//            System.out.println("true");
-//        } else {
-//            System.out.println("false");
-//        }
-//    }
-//        int a = 5;
-//        int result = (a == 5) ? 7 : 6;
-//        System.out.println(result);
-////}
         String a1 = "Wow";
         String b1 = "Wow";
 
@@ -57,33 +22,11 @@ public class FromScratch {
         printReference(a2);
         printReference(b2);
 
-        boolean r3 = (a2 == b2);      // Ложь, так как a и b не один и тот же объект
+        boolean r3 = (a2 == b2);      // false. it is not the same object
         System.out.println(r3);
 
-        boolean r4 = a2.equals(b2); // Истина, так как a и b логически равны
+        boolean r4 = a2.equals(b2); // true, "a" and "b" are logically equal
         System.out.println(r4);
-
-//        int k;
-//        k = 5;
-//        if (k < 4) {
-//            k++;
-//        } else {
-//            k--;
-//        }
-//        System.out.println(k);
-//    }
-//    int a;
-//    a = 4;
-//        switch (a) {
-//            case 0:
-//                a++;
-//
-//            case 1:
-//                a--;
-//            default:
-//                a = a - 2;
-//            {
-//                System.out.println(a);
     }
 
     public static void printReference(String str) {
