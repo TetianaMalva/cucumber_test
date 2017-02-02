@@ -1,17 +1,22 @@
 package com.tanya.bdd.classes;
 
 public class App {
+
     public static void main(String[] args) {
-        String a = "jak";
-        String a2 = "jak2";
-        int b = 4;
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        String word = "yb";
 
-
-        boolean f = true;
-        if (!a.equals(a2)) {
-            System.out.println("hello");
+        int a = 0;
+        switch (word) {
+            case "x":
+                a = a + 5;
+                break;
+            case "y":
+                a = a + 10;
+                break;
+            default:
+                a = a + 20;
         }
+        System.out.println(a);
     }
+
 }
