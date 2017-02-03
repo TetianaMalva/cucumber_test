@@ -3,11 +3,10 @@ package com.tanya.bdd.classes;
 
 public class Arrays {
     public static void main(String[] args) {
-        int [] t = new int [4];
-        int [] g = {13, 5, 6, 12, 12};
 
-        int a = 78;
-        int b = 7;
+        int a = 38;
+        int b = 5;
+        int i = 0;
         boolean f = a > b;
         System.out.println(f);
 
@@ -18,11 +17,11 @@ public class Arrays {
         } else {
             System.out.println("a equal b");
         }
-
-
-        for (int i = 0; i<10; i++)
-        {
-            System.out.println(i);
+        do {
+            System.out.println(a);
+            a = a - i;
+            i = i + 9;
         }
+            while (a > b);
     }
 }
