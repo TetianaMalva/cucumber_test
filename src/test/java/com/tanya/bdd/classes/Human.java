@@ -1,6 +1,9 @@
 package com.tanya.bdd.classes;
 
 public class Human {
+    public static void main(String[] args) {
+
+    }
     private Integer age;
     private String name;
 
