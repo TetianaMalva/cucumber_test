@@ -3,7 +3,7 @@ package com.tanya.bdd.classes;
 
 import java.util.ArrayList;
 
-public class CollectionTest {
+public class ArrayListApp {
     public static void main(String[] args) {
         ArrayList<String> myList = new ArrayList<>();
         myList.add("5");
