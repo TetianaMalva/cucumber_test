@@ -31,7 +31,6 @@ public class SeleniumSteps {
     @Then("^page title is (.*)$")
     public void page_title_is_Google(final String title) throws Throwable {
         Assert.assertEquals(driver.getTitle(), title);
-        Assert.fail("Test fail");
     }
 
     @After
